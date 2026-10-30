@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 打包产物
+build/work/
+build/*.png
+dist/
+
+# 实机测试用的芯片固件备份（含板卡原始固件，不外传）
+backup/
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+
+# 本地工作区数据
+.workbuddy/

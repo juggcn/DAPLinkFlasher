@@ -1,0 +1,2983 @@
+{
+ "STM32F1xx_DFP": {
+  "pdsc": "C:\\Users\\99020\\AppData\\Local\\Arm\\Packs\\Keil\\STM32F1xx_DFP\\2.3.0\\Keil.STM32F1xx_DFP.pdsc",
+  "devices": {
+   "STM32F103C4": {
+    "memory": [
+     {
+      "id": "IROM1",
+      "start": "0x08000000",
+      "size": "0x00004000",
+      "access": ""
+     },
+     {
+      "id": "IRAM1",
+      "start": "0x20000000",
+      "size": "0x00001800",
+      "access": ""
+     }
+    ],
+    "algorithms": [
+     {
+      "file": "Flash\\STM32F10x_16.FLM",
+      "start": "0x08000000",
+      "size": "0x00004000"
+     },
+     {
+      "file": "Flash\\STM32F10x_OPT.FLM",
+      "start": "0x1FFFF800",
+      "size": "0x00000010"
+     }
+    ]
+   },
+   "STM32F103C6": {
+    "memory": [
+     {
+      "id": "IROM1",
+      "start": "0x08000000",
+      "size": "0x00008000",
+      "access": ""
+     },
+     {
+      "id": "IRAM1",
+      "start": "0x20000000",
+      "size": "0x00002800",
+      "access": ""
+     }
+    ],
+    "algorithms": [
+     {
+      "file": "Flash\\STM32F10x_128.FLM",
+      "start": "0x08000000",
+      "size": "0x00020000"
+     },
+     {
+      "file": "Flash\\STM32F10x_OPT.FLM",
+      "start": "0x1FFFF800",
+      "size": "0x00000010"
+     }
+    ]
+   },
+   "STM32F103C8": {
+    "memory": [
+     {
+      "id": "IROM1",
+      "start": "0x08000000",
+      "size": "0x00010000",
+      "access": ""
+     },
+     {
+      "id": "IRAM1",
+      "start": "0x20000000",
+      "size": "0x00005000",
+      "access": ""
+     }
+    ],
+    "algorithms": [
+     {
+      "file": "Flash\\STM32F10x_128.FLM",
+      "start": "0x08000000",
+      "size": "0x00020000"
+     },
+     {
+      "file": "Flash\\STM32F10x_OPT.FLM",
+      "start": "0x1FFFF800",
+      "size": "0x00000010"
+     }
+    ]
+   },
+   "STM32F103CB": {
+    "memory": [
+     {
+      "id": "IROM1",
+      "start": "0x08000000",
+      "size": "0x00020000",
+      "access": ""
+     },
+     {
+      "id": "IRAM1",
+      "start": "0x20000000",
+      "size": "0x00005000",
+      "access": ""
+     }
+    ],
+    "algorithms": [
+     {
+      "file": "Flash\\STM32F10x_128.FLM",
+      "start": "0x08000000",
+      "size": "0x00020000"
+     },
+     {
+      "file": "Flash\\STM32F10x_OPT.FLM",
+      "start": "0x1FFFF800",
+      "size": "0x00000010"
+     }
+    ]
+   },
+   "STM32F103R4": {
+    "memory": [
+     {
+      "id": "IROM1",
+      "start": "0x08000000",
+      "size": "0x00004000",
+      "access": ""
+     },
+     {
+      "id": "IRAM1",
+      "start": "0x20000000",
+      "size": "0x00001800",
+      "access": ""
+     }
+    ],
+    "algorithms": [
+     {
+      "file": "Flash\\STM32F10x_16.FLM",
+      "start": "0x08000000",
+      "size": "0x00004000"
+     },
+     {
+      "file": "Flash\\STM32F10x_OPT.FLM",
+      "start": "0x1FFFF800",
+      "size": "0x00000010"
+     }
+    ]
+   },
+   "STM32F103R6": {
+    "memory": [
+     {
+      "id": "IROM1",
+      "start": "0x08000000",
+      "size": "0x00008000",
+      "access": ""
+     },
+     {
+      "id": "IRAM1",
+      "start": "0x20000000",
+      "size": "0x00002800",
+      "access": ""
+     }
+    ],
+    "algorithms": [
+     {
+      "file": "Flash\\STM32F10x_128.FLM",
+      "start": "0x08000000",
+      "size": "0x00020000"
+     },
+     {
+      "file": "Flash\\STM32F10x_OPT.FLM",
+      "start": "0x1FFFF800",
+      "size": "0x00000010"
+     }
+    ]
+   },
+   "STM32F103R8": {
+    "memory": [
+     {
+      "id": "IROM1",
+      "start": "0x08000000",
+      "size": "0x00010000",
+      "access": ""
+     },
+     {
+      "id": "IRAM1",
+      "start": "0x20000000",
+      "size": "0x00005000",
+      "access": ""
+     }
+    ],
+    "algorithms": [
+     {
+      "file": "Flash\\STM32F10x_128.FLM",
+      "start": "0x08000000",
+      "size": "0x00020000"
+     },
+     {
+      "file": "Flash\\STM32F10x_OPT.FLM",
+      "start": "0x1FFFF800",
+      "size": "0x00000010"
+     }
+    ]
+   },
+   "STM32F103RB": {
+    "memory": [
+     {
+      "id": "IROM1",
+      "start": "0x08000000",
+      "size": "0x00020000",
+      "access": ""
+     },
+     {
+      "id": "IRAM1",
+      "start": "0x20000000",
+      "size": "0x00005000",
+      "access": ""
+     }
+    ],
+    "algorithms": [
+     {
+      "file": "Flash\\STM32F10x_128.FLM",
+      "start": "0x08000000",
+      "size": "0x00020000"
+     },
+     {
+      "file": "Flash\\STM32F10x_OPT.FLM",
+      "start": "0x1FFFF800",
+      "size": "0x00000010"
+     }
+    ]
+   },
+   "STM32F103RC": {
+    "memory": [
+     {
+      "id": "IROM1",
+      "start": "0x08000000",
+      "size": "0x00040000",
+      "access": ""
+     },
+     {
+      "id": "IRAM1",
+      "start": "0x20000000",
+      "size": "0x0000C000",
+      "access": ""
+     }
+    ],
+    "algorithms": [
+     {
+      "file": "Flash\\STM32F10x_512.FLM",
+      "start": "0x08000000",
+      "size": "0x00080000"
+     },
+     {
+      "file": "Flash\\STM32F10x_OPT.FLM",
+      "start": "0x1FFFF800",
+      "size": "0x00000010"
+     }
+    ]
+   },
+   "STM32F103RD": {
+    "memory": [
+     {
+      "id": "IROM1",
+      "start": "0x08000000",
+      "size": "0x00060000",
+      "access": ""
+     },
+     {
+      "id": "IRAM1",
+      "start": "0x20000000",
+      "size": "0x00010000",
+      "access": ""
+     }
+    ],
+    "algorithms": [
+     {
+      "file": "Flash\\STM32F10x_512.FLM",
+      "start": "0x08000000",
+      "size": "0x00080000"
+     },
+     {
+      "file": "Flash\\STM32F10x_OPT.FLM",
+      "start": "0x1FFFF800",
+      "size": "0x00000010"
+     }
+    ]
+   },
+   "STM32F103RE": {
+    "memory": [
+     {
+      "id": "IROM1",
+      "start": "0x08000000",
+      "size": "0x00080000",
+      "access": ""
+     },
+     {
+      "id": "IRAM1",
+      "start": "0x20000000",
+      "size": "0x00010000",
+      "access": ""
+     }
+    ],
+    "algorithms": [
+     {
+      "file": "Flash\\STM32F10x_512.FLM",
+      "start": "0x08000000",
+      "size": "0x00080000"
+     },
+     {
+      "file": "Flash\\STM32F10x_OPT.FLM",
+      "start": "0x1FFFF800",
+      "size": "0x00000010"
+     }
+    ]
+   },
+   "STM32F103RF": {
+    "memory": [
+     {
+      "id": "IROM1",
+      "start": "0x08000000",
+      "size": "0x000C0000",
+      "access": ""
+     },
+     {
+      "id": "IRAM1",
+      "start": "0x20000000",
+      "size": "0x00018000",
+      "access": ""
+     }
+    ],
+    "algorithms": [
+     {
+      "file": "Flash\\STM32F10x_1024.FLM",
+      "start": "0x08000000",
+      "size": "0x00100000"
+     },
+     {
+      "file": "Flash\\STM32F10x_OPT.FLM",
+      "start": "0x1FFFF800",
+      "size": "0x00000010"
+     }
+    ]
+   },
+   "STM32F103RG": {
+    "memory": [
+     {
+      "id": "IROM1",
+      "start": "0x08000000",
+      "size": "0x00100000",
+      "access": ""
+     },
+     {
+      "id": "IRAM1",
+      "start": "0x20000000",
+      "size": "0x00018000",
+      "access": ""
+     }
+    ],
+    "algorithms": [
+     {
+      "file": "Flash\\STM32F10x_1024.FLM",
+      "start": "0x08000000",
+      "size": "0x00100000"
+     },
+     {
+      "file": "Flash\\STM32F10x_OPT.FLM",
+      "start": "0x1FFFF800",
+      "size": "0x00000010"
+     }
+    ]
+   },
+   "STM32F103T4": {
+    "memory": [
+     {
+      "id": "IROM1",
+      "start": "0x08000000",
+      "size": "0x00004000",
+      "access": ""
+     },
+     {
+      "id": "IRAM1",
+      "start": "0x20000000",
+      "size": "0x00001800",
+      "access": ""
+     }
+    ],
+    "algorithms": [
+     {
+      "file": "Flash\\STM32F10x_16.FLM",
+      "start": "0x08000000",
+      "size": "0x00004000"
+     },
+     {
+      "file": "Flash\\STM32F10x_OPT.FLM",
+      "start": "0x1FFFF800",
+      "size": "0x00000010"
+     }
+    ]
+   },
+   "STM32F103T6": {
+    "memory": [
+     {
+      "id": "IROM1",
+      "start": "0x08000000",
+      "size": "0x00008000",
+      "access": ""
+     },
+     {
+      "id": "IRAM1",
+      "start": "0x20000000",
+      "size": "0x00002800",
+      "access": ""
+     }
+    ],
+    "algorithms": [
+     {
+      "file": "Flash\\STM32F10x_128.FLM",
+      "start": "0x08000000",
+      "size": "0x00020000"
+     },
+     {
+      "file": "Flash\\STM32F10x_OPT.FLM",
+      "start": "0x1FFFF800",
+      "size": "0x00000010"
+     }
+    ]
+   },
+   "STM32F103T8": {
+    "memory": [
+     {
+      "id": "IROM1",
+      "start": "0x08000000",
+      "size": "0x00010000",
+      "access": ""
+     },
+     {
+      "id": "IRAM1",
+      "start": "0x20000000",
+      "size": "0x00005000",
+      "access": ""
+     }
+    ],
+    "algorithms": [
+     {
+      "file": "Flash\\STM32F10x_128.FLM",
+      "start": "0x08000000",
+      "size": "0x00020000"
+     },
+     {
+      "file": "Flash\\STM32F10x_OPT.FLM",
+      "start": "0x1FFFF800",
+      "size": "0x00000010"
+     }
+    ]
+   },
+   "STM32F103TB": {
+    "memory": [
+     {
+      "id": "IROM1",
+      "start": "0x08000000",
+      "size": "0x00020000",
+      "access": ""
+     },
+     {
+      "id": "IRAM1",
+      "start": "0x20000000",
+      "size": "0x00005000",
+      "access": ""
+     }
+    ],
+    "algorithms": [
+     {
+      "file": "Flash\\STM32F10x_128.FLM",
+      "start": "0x08000000",
+      "size": "0x00020000"
+     },
+     {
+      "file": "Flash\\STM32F10x_OPT.FLM",
+      "start": "0x1FFFF800",
+      "size": "0x00000010"
+     }
+    ]
+   },
+   "STM32F103V8": {
+    "memory": [
+     {
+      "id": "IROM1",
+      "start": "0x08000000",
+      "size": "0x00010000",
+      "access": ""
+     },
+     {
+      "id": "IRAM1",
+      "start": "0x20000000",
+      "size": "0x00005000",
+      "access": ""
+     }
+    ],
+    "algorithms": [
+     {
+      "file": "Flash\\STM32F10x_128.FLM",
+      "start": "0x08000000",
+      "size": "0x00020000"
+     },
+     {
+      "file": "Flash\\STM32F10x_OPT.FLM",
+      "start": "0x1FFFF800",
+      "size": "0x00000010"
+     }
+    ]
+   },
+   "STM32F103VB": {
+    "memory": [
+     {
+      "id": "IROM1",
+      "start": "0x08000000",
+      "size": "0x00020000",
+      "access": ""
+     },
+     {
+      "id": "IRAM1",
+      "start": "0x20000000",
+      "size": "0x00005000",
+      "access": ""
+     }
+    ],
+    "algorithms": [
+     {
+      "file": "Flash\\STM32F10x_128.FLM",
+      "start": "0x08000000",
+      "size": "0x00020000"
+     },
+     {
+      "file": "Flash\\STM32F10x_OPT.FLM",
+      "start": "0x1FFFF800",
+      "size": "0x00000010"
+     }
+    ]
+   },
+   "STM32F103VC": {
+    "memory": [
+     {
+      "id": "IROM1",
+      "start": "0x08000000",
+      "size": "0x00040000",
+      "access": ""
+     },
+     {
+      "id": "IRAM1",
+      "start": "0x20000000",
+      "size": "0x0000C000",
+      "access": ""
+     }
+    ],
+    "algorithms": [
+     {
+      "file": "Flash\\STM32F10x_512.FLM",
+      "start": "0x08000000",
+      "size": "0x00080000"
+     },
+     {
+      "file": "Flash\\STM32F10x_OPT.FLM",
+      "start": "0x1FFFF800",
+      "size": "0x00000010"
+     }
+    ]
+   },
+   "STM32F103VD": {
+    "memory": [
+     {
+      "id": "IROM1",
+      "start": "0x08000000",
+      "size": "0x00060000",
+      "access": ""
+     },
+     {
+      "id": "IRAM1",
+      "start": "0x20000000",
+      "size": "0x00010000",
+      "access": ""
+     }
+    ],
+    "algorithms": [
+     {
+      "file": "Flash\\STM32F10x_512.FLM",
+      "start": "0x08000000",
+      "size": "0x00080000"
+     },
+     {
+      "file": "Flash\\STM32F10x_OPT.FLM",
+      "start": "0x1FFFF800",
+      "size": "0x00000010"
+     }
+    ]
+   },
+   "STM32F103VE": {
+    "memory": [
+     {
+      "id": "IROM1",
+      "start": "0x08000000",
+      "size": "0x00080000",
+      "access": ""
+     },
+     {
+      "id": "IRAM1",
+      "start": "0x20000000",
+      "size": "0x00010000",
+      "access": ""
+     }
+    ],
+    "algorithms": [
+     {
+      "file": "Flash\\STM32F10x_512.FLM",
+      "start": "0x08000000",
+      "size": "0x00080000"
+     },
+     {
+      "file": "Flash\\STM32F10x_OPT.FLM",
+      "start": "0x1FFFF800",
+      "size": "0x00000010"
+     }
+    ]
+   },
+   "STM32F103VF": {
+    "memory": [
+     {
+      "id": "IROM1",
+      "start": "0x08000000",
+      "size": "0x000C0000",
+      "access": ""
+     },
+     {
+      "id": "IRAM1",
+      "start": "0x20000000",
+      "size": "0x00018000",
+      "access": ""
+     }
+    ],
+    "algorithms": [
+     {
+      "file": "Flash\\STM32F10x_1024.FLM",
+      "start": "0x08000000",
+      "size": "0x00100000"
+     },
+     {
+      "file": "Flash\\STM32F10x_OPT.FLM",
+      "start": "0x1FFFF800",
+      "size": "0x00000010"
+     }
+    ]
+   },
+   "STM32F103VG": {
+    "memory": [
+     {
+      "id": "IROM1",
+      "start": "0x08000000",
+      "size": "0x00100000",
+      "access": ""
+     },
+     {
+      "id": "IRAM1",
+      "start": "0x20000000",
+      "size": "0x00018000",
+      "access": ""
+     }
+    ],
+    "algorithms": [
+     {
+      "file": "Flash\\STM32F10x_1024.FLM",
+      "start": "0x08000000",
+      "size": "0x00100000"
+     },
+     {
+      "file": "Flash\\STM32F10x_OPT.FLM",
+      "start": "0x1FFFF800",
+      "size": "0x00000010"
+     }
+    ]
+   },
+   "STM32F103ZC": {
+    "memory": [
+     {
+      "id": "IROM1",
+      "start": "0x08000000",
+      "size": "0x00040000",
+      "access": ""
+     },
+     {
+      "id": "IRAM1",
+      "start": "0x20000000",
+      "size": "0x0000C000",
+      "access": ""
+     }
+    ],
+    "algorithms": [
+     {
+      "file": "Flash\\STM32F10x_512.FLM",
+      "start": "0x08000000",
+      "size": "0x00080000"
+     },
+     {
+      "file": "Flash\\STM32F10x_OPT.FLM",
+      "start": "0x1FFFF800",
+      "size": "0x00000010"
+     }
+    ]
+   },
+   "STM32F103ZD": {
+    "memory": [
+     {
+      "id": "IROM1",
+      "start": "0x08000000",
+      "size": "0x00060000",
+      "access": ""
+     },
+     {
+      "id": "IRAM1",
+      "start": "0x20000000",
+      "size": "0x00010000",
+      "access": ""
+     }
+    ],
+    "algorithms": [
+     {
+      "file": "Flash\\STM32F10x_512.FLM",
+      "start": "0x08000000",
+      "size": "0x00080000"
+     },
+     {
+      "file": "Flash\\STM32F10x_OPT.FLM",
+      "start": "0x1FFFF800",
+      "size": "0x00000010"
+     }
+    ]
+   },
+   "STM32F103ZE": {
+    "memory": [
+     {
+      "id": "IROM1",
+      "start": "0x08000000",
+      "size": "0x00080000",
+      "access": ""
+     },
+     {
+      "id": "IRAM1",
+      "start": "0x20000000",
+      "size": "0x00010000",
+      "access": ""
+     }
+    ],
+    "algorithms": [
+     {
+      "file": "Flash\\STM32F10x_512.FLM",
+      "start": "0x08000000",
+      "size": "0x00080000"
+     },
+     {
+      "file": "Flash\\STM32F10x_OPT.FLM",
+      "start": "0x1FFFF800",
+      "size": "0x00000010"
+     }
+    ]
+   },
+   "STM32F103ZF": {
+    "memory": [
+     {
+      "id": "IROM1",
+      "start": "0x08000000",
+      "size": "0x000C0000",
+      "access": ""
+     },
+     {
+      "id": "IRAM1",
+      "start": "0x20000000",
+      "size": "0x00018000",
+      "access": ""
+     }
+    ],
+    "algorithms": [
+     {
+      "file": "Flash\\STM32F10x_1024.FLM",
+      "start": "0x08000000",
+      "size": "0x00100000"
+     },
+     {
+      "file": "Flash\\STM32F10x_OPT.FLM",
+      "start": "0x1FFFF800",
+      "size": "0x00000010"
+     }
+    ]
+   },
+   "STM32F103ZG": {
+    "memory": [
+     {
+      "id": "IROM1",
+      "start": "0x08000000",
+      "size": "0x00100000",
+      "access": ""
+     },
+     {
+      "id": "IRAM1",
+      "start": "0x20000000",
+      "size": "0x00018000",
+      "access": ""
+     }
+    ],
+    "algorithms": [
+     {
+      "file": "Flash\\STM32F10x_1024.FLM",
+      "start": "0x08000000",
+      "size": "0x00100000"
+     },
+     {
+      "file": "Flash\\STM32F10x_OPT.FLM",
+      "start": "0x1FFFF800",
+      "size": "0x00000010"
+     }
+    ]
+   }
+  }
+ },
+ "STM32F4xx_DFP": {
+  "pdsc": "C:\\Users\\99020\\AppData\\Local\\Arm\\Packs\\Keil\\STM32F4xx_DFP\\2.15.0\\Keil.STM32F4xx_DFP.pdsc",
+  "devices": {
+   "STM32F401CB": {
+    "memory": [
+     {
+      "id": "IROM1",
+      "start": "0x08000000",
+      "size": "0x00020000",
+      "access": ""
+     },
+     {
+      "id": "IRAM1",
+      "start": "0x20000000",
+      "size": "0x00010000",
+      "access": ""
+     }
+    ],
+    "algorithms": [
+     {
+      "file": "CMSIS\\Flash\\STM32F4xx_128.FLM",
+      "start": "0x08000000",
+      "size": "0x00020000"
+     },
+     {
+      "file": "CMSIS\\Flash\\STM32F401xx_OPT.FLM",
+      "start": "0x1FFFC000",
+      "size": "0x00000004"
+     },
+     {
+      "file": "CMSIS\\Flash\\STM32F4xx_OTP.FLM",
+      "start": "0x1FFF7800",
+      "size": "0x00000210"
+     }
+    ]
+   },
+   "STM32F401RB": {
+    "memory": [
+     {
+      "id": "IROM1",
+      "start": "0x08000000",
+      "size": "0x00020000",
+      "access": ""
+     },
+     {
+      "id": "IRAM1",
+      "start": "0x20000000",
+      "size": "0x00010000",
+      "access": ""
+     }
+    ],
+    "algorithms": [
+     {
+      "file": "CMSIS\\Flash\\STM32F4xx_128.FLM",
+      "start": "0x08000000",
+      "size": "0x00020000"
+     },
+     {
+      "file": "CMSIS\\Flash\\STM32F401xx_OPT.FLM",
+      "start": "0x1FFFC000",
+      "size": "0x00000004"
+     },
+     {
+      "file": "CMSIS\\Flash\\STM32F4xx_OTP.FLM",
+      "start": "0x1FFF7800",
+      "size": "0x00000210"
+     }
+    ]
+   },
+   "STM32F401VB": {
+    "memory": [
+     {
+      "id": "IROM1",
+      "start": "0x08000000",
+      "size": "0x00020000",
+      "access": ""
+     },
+     {
+      "id": "IRAM1",
+      "start": "0x20000000",
+      "size": "0x00010000",
+      "access": ""
+     }
+    ],
+    "algorithms": [
+     {
+      "file": "CMSIS\\Flash\\STM32F4xx_128.FLM",
+      "start": "0x08000000",
+      "size": "0x00020000"
+     },
+     {
+      "file": "CMSIS\\Flash\\STM32F401xx_OPT.FLM",
+      "start": "0x1FFFC000",
+      "size": "0x00000004"
+     },
+     {
+      "file": "CMSIS\\Flash\\STM32F4xx_OTP.FLM",
+      "start": "0x1FFF7800",
+      "size": "0x00000210"
+     }
+    ]
+   },
+   "STM32F401CC": {
+    "memory": [
+     {
+      "id": "IROM1",
+      "start": "0x08000000",
+      "size": "0x00040000",
+      "access": ""
+     },
+     {
+      "id": "IRAM1",
+      "start": "0x20000000",
+      "size": "0x00010000",
+      "access": ""
+     }
+    ],
+    "algorithms": [
+     {
+      "file": "CMSIS\\Flash\\STM32F4xx_256.FLM",
+      "start": "0x08000000",
+      "size": "0x00040000"
+     },
+     {
+      "file": "CMSIS\\Flash\\STM32F401xx_OPT.FLM",
+      "start": "0x1FFFC000",
+      "size": "0x00000004"
+     },
+     {
+      "file": "CMSIS\\Flash\\STM32F4xx_OTP.FLM",
+      "start": "0x1FFF7800",
+      "size": "0x00000210"
+     }
+    ]
+   },
+   "STM32F401RC": {
+    "memory": [
+     {
+      "id": "IROM1",
+      "start": "0x08000000",
+      "size": "0x00040000",
+      "access": ""
+     },
+     {
+      "id": "IRAM1",
+      "start": "0x20000000",
+      "size": "0x00010000",
+      "access": ""
+     }
+    ],
+    "algorithms": [
+     {
+      "file": "CMSIS\\Flash\\STM32F4xx_256.FLM",
+      "start": "0x08000000",
+      "size": "0x00040000"
+     },
+     {
+      "file": "CMSIS\\Flash\\STM32F401xx_OPT.FLM",
+      "start": "0x1FFFC000",
+      "size": "0x00000004"
+     },
+     {
+      "file": "CMSIS\\Flash\\STM32F4xx_OTP.FLM",
+      "start": "0x1FFF7800",
+      "size": "0x00000210"
+     }
+    ]
+   },
+   "STM32F401VC": {
+    "memory": [
+     {
+      "id": "IROM1",
+      "start": "0x08000000",
+      "size": "0x00040000",
+      "access": ""
+     },
+     {
+      "id": "IRAM1",
+      "start": "0x20000000",
+      "size": "0x00010000",
+      "access": ""
+     }
+    ],
+    "algorithms": [
+     {
+      "file": "CMSIS\\Flash\\STM32F4xx_256.FLM",
+      "start": "0x08000000",
+      "size": "0x00040000"
+     },
+     {
+      "file": "CMSIS\\Flash\\STM32F401xx_OPT.FLM",
+      "start": "0x1FFFC000",
+      "size": "0x00000004"
+     },
+     {
+      "file": "CMSIS\\Flash\\STM32F4xx_OTP.FLM",
+      "start": "0x1FFF7800",
+      "size": "0x00000210"
+     }
+    ]
+   },
+   "STM32F401CD": {
+    "memory": [
+     {
+      "id": "IROM1",
+      "start": "0x08000000",
+      "size": "0x00060000",
+      "access": ""
+     },
+     {
+      "id": "IRAM1",
+      "start": "0x20000000",
+      "size": "0x00018000",
+      "access": ""
+     }
+    ],
+    "algorithms": [
+     {
+      "file": "CMSIS\\Flash\\STM32F4xx_384.FLM",
+      "start": "0x08000000",
+      "size": "0x00060000"
+     },
+     {
+      "file": "CMSIS\\Flash\\STM32F401xx_OPT.FLM",
+      "start": "0x1FFFC000",
+      "size": "0x00000004"
+     },
+     {
+      "file": "CMSIS\\Flash\\STM32F4xx_OTP.FLM",
+      "start": "0x1FFF7800",
+      "size": "0x00000210"
+     }
+    ]
+   },
+   "STM32F401RD": {
+    "memory": [
+     {
+      "id": "IROM1",
+      "start": "0x08000000",
+      "size": "0x00060000",
+      "access": ""
+     },
+     {
+      "id": "IRAM1",
+      "start": "0x20000000",
+      "size": "0x00018000",
+      "access": ""
+     }
+    ],
+    "algorithms": [
+     {
+      "file": "CMSIS\\Flash\\STM32F4xx_384.FLM",
+      "start": "0x08000000",
+      "size": "0x00060000"
+     },
+     {
+      "file": "CMSIS\\Flash\\STM32F401xx_OPT.FLM",
+      "start": "0x1FFFC000",
+      "size": "0x00000004"
+     },
+     {
+      "file": "CMSIS\\Flash\\STM32F4xx_OTP.FLM",
+      "start": "0x1FFF7800",
+      "size": "0x00000210"
+     }
+    ]
+   },
+   "STM32F401VD": {
+    "memory": [
+     {
+      "id": "IROM1",
+      "start": "0x08000000",
+      "size": "0x00060000",
+      "access": ""
+     },
+     {
+      "id": "IRAM1",
+      "start": "0x20000000",
+      "size": "0x00018000",
+      "access": ""
+     }
+    ],
+    "algorithms": [
+     {
+      "file": "CMSIS\\Flash\\STM32F4xx_384.FLM",
+      "start": "0x08000000",
+      "size": "0x00060000"
+     },
+     {
+      "file": "CMSIS\\Flash\\STM32F401xx_OPT.FLM",
+      "start": "0x1FFFC000",
+      "size": "0x00000004"
+     },
+     {
+      "file": "CMSIS\\Flash\\STM32F4xx_OTP.FLM",
+      "start": "0x1FFF7800",
+      "size": "0x00000210"
+     }
+    ]
+   },
+   "STM32F401CE": {
+    "memory": [
+     {
+      "id": "IROM1",
+      "start": "0x08000000",
+      "size": "0x00080000",
+      "access": ""
+     },
+     {
+      "id": "IRAM1",
+      "start": "0x20000000",
+      "size": "0x00018000",
+      "access": ""
+     }
+    ],
+    "algorithms": [
+     {
+      "file": "CMSIS\\Flash\\STM32F4xx_512.FLM",
+      "start": "0x08000000",
+      "size": "0x00080000"
+     },
+     {
+      "file": "CMSIS\\Flash\\STM32F401xx_OPT.FLM",
+      "start": "0x1FFFC000",
+      "size": "0x00000004"
+     },
+     {
+      "file": "CMSIS\\Flash\\STM32F4xx_OTP.FLM",
+      "start": "0x1FFF7800",
+      "size": "0x00000210"
+     }
+    ]
+   },
+   "STM32F401RE": {
+    "memory": [
+     {
+      "id": "IROM1",
+      "start": "0x08000000",
+      "size": "0x00080000",
+      "access": ""
+     },
+     {
+      "id": "IRAM1",
+      "start": "0x20000000",
+      "size": "0x00018000",
+      "access": ""
+     }
+    ],
+    "algorithms": [
+     {
+      "file": "CMSIS\\Flash\\STM32F4xx_512.FLM",
+      "start": "0x08000000",
+      "size": "0x00080000"
+     },
+     {
+      "file": "CMSIS\\Flash\\STM32F401xx_OPT.FLM",
+      "start": "0x1FFFC000",
+      "size": "0x00000004"
+     },
+     {
+      "file": "CMSIS\\Flash\\STM32F4xx_OTP.FLM",
+      "start": "0x1FFF7800",
+      "size": "0x00000210"
+     }
+    ]
+   },
+   "STM32F401VE": {
+    "memory": [
+     {
+      "id": "IROM1",
+      "start": "0x08000000",
+      "size": "0x00080000",
+      "access": ""
+     },
+     {
+      "id": "IRAM1",
+      "start": "0x20000000",
+      "size": "0x00018000",
+      "access": ""
+     }
+    ],
+    "algorithms": [
+     {
+      "file": "CMSIS\\Flash\\STM32F4xx_512.FLM",
+      "start": "0x08000000",
+      "size": "0x00080000"
+     },
+     {
+      "file": "CMSIS\\Flash\\STM32F401xx_OPT.FLM",
+      "start": "0x1FFFC000",
+      "size": "0x00000004"
+     },
+     {
+      "file": "CMSIS\\Flash\\STM32F4xx_OTP.FLM",
+      "start": "0x1FFF7800",
+      "size": "0x00000210"
+     }
+    ]
+   },
+   "STM32F411CC": {
+    "memory": [
+     {
+      "id": "IROM1",
+      "start": "0x08000000",
+      "size": "0x00040000",
+      "access": ""
+     },
+     {
+      "id": "IRAM1",
+      "start": "0x20000000",
+      "size": "0x00020000",
+      "access": ""
+     }
+    ],
+    "algorithms": [
+     {
+      "file": "CMSIS\\Flash\\STM32F4xx_256.FLM",
+      "start": "0x08000000",
+      "size": "0x00040000"
+     },
+     {
+      "file": "CMSIS\\Flash\\STM32F411xx_OPT.FLM",
+      "start": "0x1FFFC000",
+      "size": "0x00000004"
+     },
+     {
+      "file": "CMSIS\\Flash\\STM32F4xx_OTP.FLM",
+      "start": "0x1FFF7800",
+      "size": "0x00000210"
+     }
+    ]
+   },
+   "STM32F411RC": {
+    "memory": [
+     {
+      "id": "IROM1",
+      "start": "0x08000000",
+      "size": "0x00040000",
+      "access": ""
+     },
+     {
+      "id": "IRAM1",
+      "start": "0x20000000",
+      "size": "0x00020000",
+      "access": ""
+     }
+    ],
+    "algorithms": [
+     {
+      "file": "CMSIS\\Flash\\STM32F4xx_256.FLM",
+      "start": "0x08000000",
+      "size": "0x00040000"
+     },
+     {
+      "file": "CMSIS\\Flash\\STM32F411xx_OPT.FLM",
+      "start": "0x1FFFC000",
+      "size": "0x00000004"
+     },
+     {
+      "file": "CMSIS\\Flash\\STM32F4xx_OTP.FLM",
+      "start": "0x1FFF7800",
+      "size": "0x00000210"
+     }
+    ]
+   },
+   "STM32F411VC": {
+    "memory": [
+     {
+      "id": "IROM1",
+      "start": "0x08000000",
+      "size": "0x00040000",
+      "access": ""
+     },
+     {
+      "id": "IRAM1",
+      "start": "0x20000000",
+      "size": "0x00020000",
+      "access": ""
+     }
+    ],
+    "algorithms": [
+     {
+      "file": "CMSIS\\Flash\\STM32F4xx_256.FLM",
+      "start": "0x08000000",
+      "size": "0x00040000"
+     },
+     {
+      "file": "CMSIS\\Flash\\STM32F411xx_OPT.FLM",
+      "start": "0x1FFFC000",
+      "size": "0x00000004"
+     },
+     {
+      "file": "CMSIS\\Flash\\STM32F4xx_OTP.FLM",
+      "start": "0x1FFF7800",
+      "size": "0x00000210"
+     }
+    ]
+   },
+   "STM32F411CE": {
+    "memory": [
+     {
+      "id": "IROM1",
+      "start": "0x08000000",
+      "size": "0x00080000",
+      "access": ""
+     },
+     {
+      "id": "IRAM1",
+      "start": "0x20000000",
+      "size": "0x00020000",
+      "access": ""
+     }
+    ],
+    "algorithms": [
+     {
+      "file": "CMSIS\\Flash\\STM32F4xx_512.FLM",
+      "start": "0x08000000",
+      "size": "0x00080000"
+     },
+     {
+      "file": "CMSIS\\Flash\\STM32F411xx_OPT.FLM",
+      "start": "0x1FFFC000",
+      "size": "0x00000004"
+     },
+     {
+      "file": "CMSIS\\Flash\\STM32F4xx_OTP.FLM",
+      "start": "0x1FFF7800",
+      "size": "0x00000210"
+     }
+    ]
+   },
+   "STM32F411RE": {
+    "memory": [
+     {
+      "id": "IROM1",
+      "start": "0x08000000",
+      "size": "0x00080000",
+      "access": ""
+     },
+     {
+      "id": "IRAM1",
+      "start": "0x20000000",
+      "size": "0x00020000",
+      "access": ""
+     }
+    ],
+    "algorithms": [
+     {
+      "file": "CMSIS\\Flash\\STM32F4xx_512.FLM",
+      "start": "0x08000000",
+      "size": "0x00080000"
+     },
+     {
+      "file": "CMSIS\\Flash\\STM32F411xx_OPT.FLM",
+      "start": "0x1FFFC000",
+      "size": "0x00000004"
+     },
+     {
+      "file": "CMSIS\\Flash\\STM32F4xx_OTP.FLM",
+      "start": "0x1FFF7800",
+      "size": "0x00000210"
+     }
+    ]
+   },
+   "STM32F411VE": {
+    "memory": [
+     {
+      "id": "IROM1",
+      "start": "0x08000000",
+      "size": "0x00080000",
+      "access": ""
+     },
+     {
+      "id": "IRAM1",
+      "start": "0x20000000",
+      "size": "0x00020000",
+      "access": ""
+     }
+    ],
+    "algorithms": [
+     {
+      "file": "CMSIS\\Flash\\STM32F4xx_512.FLM",
+      "start": "0x08000000",
+      "size": "0x00080000"
+     },
+     {
+      "file": "CMSIS\\Flash\\STM32F411xx_OPT.FLM",
+      "start": "0x1FFFC000",
+      "size": "0x00000004"
+     },
+     {
+      "file": "CMSIS\\Flash\\STM32F4xx_OTP.FLM",
+      "start": "0x1FFF7800",
+      "size": "0x00000210"
+     }
+    ]
+   },
+   "STM32F405RG": {
+    "memory": [
+     {
+      "id": "IROM1",
+      "start": "0x08000000",
+      "size": "0x00100000",
+      "access": ""
+     },
+     {
+      "id": "IRAM1",
+      "start": "0x20000000",
+      "size": "0x00020000",
+      "access": ""
+     },
+     {
+      "id": "IRAM2",
+      "start": "0x10000000",
+      "size": "0x00010000",
+      "access": ""
+     }
+    ],
+    "algorithms": [
+     {
+      "file": "CMSIS\\Flash\\STM32F4xx_1024.FLM",
+      "start": "0x08000000",
+      "size": "0x00100000"
+     },
+     {
+      "file": "CMSIS\\Flash\\STM32F40xxx_41xxx_OPT.FLM",
+      "start": "0x1FFFC000",
+      "size": "0x00000004"
+     },
+     {
+      "file": "CMSIS\\Flash\\STM32F4xx_OTP.FLM",
+      "start": "0x1FFF7800",
+      "size": "0x00000210"
+     }
+    ]
+   },
+   "STM32F405VG": {
+    "memory": [
+     {
+      "id": "IROM1",
+      "start": "0x08000000",
+      "size": "0x00100000",
+      "access": ""
+     },
+     {
+      "id": "IRAM1",
+      "start": "0x20000000",
+      "size": "0x00020000",
+      "access": ""
+     },
+     {
+      "id": "IRAM2",
+      "start": "0x10000000",
+      "size": "0x00010000",
+      "access": ""
+     }
+    ],
+    "algorithms": [
+     {
+      "file": "CMSIS\\Flash\\STM32F4xx_1024.FLM",
+      "start": "0x08000000",
+      "size": "0x00100000"
+     },
+     {
+      "file": "CMSIS\\Flash\\STM32F40xxx_41xxx_OPT.FLM",
+      "start": "0x1FFFC000",
+      "size": "0x00000004"
+     },
+     {
+      "file": "CMSIS\\Flash\\STM32F4xx_OTP.FLM",
+      "start": "0x1FFF7800",
+      "size": "0x00000210"
+     }
+    ]
+   },
+   "STM32F405ZG": {
+    "memory": [
+     {
+      "id": "IROM1",
+      "start": "0x08000000",
+      "size": "0x00100000",
+      "access": ""
+     },
+     {
+      "id": "IRAM1",
+      "start": "0x20000000",
+      "size": "0x00020000",
+      "access": ""
+     },
+     {
+      "id": "IRAM2",
+      "start": "0x10000000",
+      "size": "0x00010000",
+      "access": ""
+     }
+    ],
+    "algorithms": [
+     {
+      "file": "CMSIS\\Flash\\STM32F4xx_1024.FLM",
+      "start": "0x08000000",
+      "size": "0x00100000"
+     },
+     {
+      "file": "CMSIS\\Flash\\STM32F40xxx_41xxx_OPT.FLM",
+      "start": "0x1FFFC000",
+      "size": "0x00000004"
+     },
+     {
+      "file": "CMSIS\\Flash\\STM32F4xx_OTP.FLM",
+      "start": "0x1FFF7800",
+      "size": "0x00000210"
+     }
+    ]
+   },
+   "STM32F405OG": {
+    "memory": [
+     {
+      "id": "IROM1",
+      "start": "0x08000000",
+      "size": "0x00100000",
+      "access": ""
+     },
+     {
+      "id": "IRAM1",
+      "start": "0x20000000",
+      "size": "0x00020000",
+      "access": ""
+     },
+     {
+      "id": "IRAM2",
+      "start": "0x10000000",
+      "size": "0x00010000",
+      "access": ""
+     }
+    ],
+    "algorithms": [
+     {
+      "file": "CMSIS\\Flash\\STM32F4xx_1024.FLM",
+      "start": "0x08000000",
+      "size": "0x00100000"
+     },
+     {
+      "file": "CMSIS\\Flash\\STM32F40xxx_41xxx_OPT.FLM",
+      "start": "0x1FFFC000",
+      "size": "0x00000004"
+     },
+     {
+      "file": "CMSIS\\Flash\\STM32F4xx_OTP.FLM",
+      "start": "0x1FFF7800",
+      "size": "0x00000210"
+     }
+    ]
+   },
+   "STM32F405OE": {
+    "memory": [
+     {
+      "id": "IROM1",
+      "start": "0x08000000",
+      "size": "0x00080000",
+      "access": ""
+     },
+     {
+      "id": "IRAM1",
+      "start": "0x20000000",
+      "size": "0x00020000",
+      "access": ""
+     },
+     {
+      "id": "IRAM2",
+      "start": "0x10000000",
+      "size": "0x00010000",
+      "access": ""
+     }
+    ],
+    "algorithms": [
+     {
+      "file": "CMSIS\\Flash\\STM32F4xx_512.FLM",
+      "start": "0x08000000",
+      "size": "0x00080000"
+     },
+     {
+      "file": "CMSIS\\Flash\\STM32F40xxx_41xxx_OPT.FLM",
+      "start": "0x1FFFC000",
+      "size": "0x00000004"
+     },
+     {
+      "file": "CMSIS\\Flash\\STM32F4xx_OTP.FLM",
+      "start": "0x1FFF7800",
+      "size": "0x00000210"
+     }
+    ]
+   },
+   "STM32F407VG": {
+    "memory": [
+     {
+      "id": "IROM1",
+      "start": "0x08000000",
+      "size": "0x00100000",
+      "access": ""
+     },
+     {
+      "id": "IRAM1",
+      "start": "0x20000000",
+      "size": "0x00020000",
+      "access": ""
+     },
+     {
+      "id": "IRAM2",
+      "start": "0x10000000",
+      "size": "0x00010000",
+      "access": ""
+     }
+    ],
+    "algorithms": [
+     {
+      "file": "CMSIS\\Flash\\STM32F4xx_1024.FLM",
+      "start": "0x08000000",
+      "size": "0x00100000"
+     },
+     {
+      "file": "CMSIS\\Flash\\STM32F40xxx_41xxx_OPT.FLM",
+      "start": "0x1FFFC000",
+      "size": "0x00000004"
+     },
+     {
+      "file": "CMSIS\\Flash\\STM32F4xx_OTP.FLM",
+      "start": "0x1FFF7800",
+      "size": "0x00000210"
+     }
+    ]
+   },
+   "STM32F407IG": {
+    "memory": [
+     {
+      "id": "IROM1",
+      "start": "0x08000000",
+      "size": "0x00100000",
+      "access": ""
+     },
+     {
+      "id": "IRAM1",
+      "start": "0x20000000",
+      "size": "0x00020000",
+      "access": ""
+     },
+     {
+      "id": "IRAM2",
+      "start": "0x10000000",
+      "size": "0x00010000",
+      "access": ""
+     }
+    ],
+    "algorithms": [
+     {
+      "file": "CMSIS\\Flash\\STM32F4xx_1024.FLM",
+      "start": "0x08000000",
+      "size": "0x00100000"
+     },
+     {
+      "file": "CMSIS\\Flash\\STM32F40xxx_41xxx_OPT.FLM",
+      "start": "0x1FFFC000",
+      "size": "0x00000004"
+     },
+     {
+      "file": "CMSIS\\Flash\\STM32F4xx_OTP.FLM",
+      "start": "0x1FFF7800",
+      "size": "0x00000210"
+     }
+    ]
+   },
+   "STM32F407ZG": {
+    "memory": [
+     {
+      "id": "IROM1",
+      "start": "0x08000000",
+      "size": "0x00100000",
+      "access": ""
+     },
+     {
+      "id": "IRAM1",
+      "start": "0x20000000",
+      "size": "0x00020000",
+      "access": ""
+     },
+     {
+      "id": "IRAM2",
+      "start": "0x10000000",
+      "size": "0x00010000",
+      "access": ""
+     }
+    ],
+    "algorithms": [
+     {
+      "file": "CMSIS\\Flash\\STM32F4xx_1024.FLM",
+      "start": "0x08000000",
+      "size": "0x00100000"
+     },
+     {
+      "file": "CMSIS\\Flash\\STM32F40xxx_41xxx_OPT.FLM",
+      "start": "0x1FFFC000",
+      "size": "0x00000004"
+     },
+     {
+      "file": "CMSIS\\Flash\\STM32F4xx_OTP.FLM",
+      "start": "0x1FFF7800",
+      "size": "0x00000210"
+     }
+    ]
+   },
+   "STM32F407VE": {
+    "memory": [
+     {
+      "id": "IROM1",
+      "start": "0x08000000",
+      "size": "0x00080000",
+      "access": ""
+     },
+     {
+      "id": "IRAM1",
+      "start": "0x20000000",
+      "size": "0x00020000",
+      "access": ""
+     },
+     {
+      "id": "IRAM2",
+      "start": "0x10000000",
+      "size": "0x00010000",
+      "access": ""
+     }
+    ],
+    "algorithms": [
+     {
+      "file": "CMSIS\\Flash\\STM32F4xx_512.FLM",
+      "start": "0x08000000",
+      "size": "0x00080000"
+     },
+     {
+      "file": "CMSIS\\Flash\\STM32F40xxx_41xxx_OPT.FLM",
+      "start": "0x1FFFC000",
+      "size": "0x00000004"
+     },
+     {
+      "file": "CMSIS\\Flash\\STM32F4xx_OTP.FLM",
+      "start": "0x1FFF7800",
+      "size": "0x00000210"
+     }
+    ]
+   },
+   "STM32F407ZE": {
+    "memory": [
+     {
+      "id": "IROM1",
+      "start": "0x08000000",
+      "size": "0x00080000",
+      "access": ""
+     },
+     {
+      "id": "IRAM1",
+      "start": "0x20000000",
+      "size": "0x00020000",
+      "access": ""
+     },
+     {
+      "id": "IRAM2",
+      "start": "0x10000000",
+      "size": "0x00010000",
+      "access": ""
+     }
+    ],
+    "algorithms": [
+     {
+      "file": "CMSIS\\Flash\\STM32F4xx_512.FLM",
+      "start": "0x08000000",
+      "size": "0x00080000"
+     },
+     {
+      "file": "CMSIS\\Flash\\STM32F40xxx_41xxx_OPT.FLM",
+      "start": "0x1FFFC000",
+      "size": "0x00000004"
+     },
+     {
+      "file": "CMSIS\\Flash\\STM32F4xx_OTP.FLM",
+      "start": "0x1FFF7800",
+      "size": "0x00000210"
+     }
+    ]
+   },
+   "STM32F407IE": {
+    "memory": [
+     {
+      "id": "IROM1",
+      "start": "0x08000000",
+      "size": "0x00080000",
+      "access": ""
+     },
+     {
+      "id": "IRAM1",
+      "start": "0x20000000",
+      "size": "0x00020000",
+      "access": ""
+     },
+     {
+      "id": "IRAM2",
+      "start": "0x10000000",
+      "size": "0x00010000",
+      "access": ""
+     }
+    ],
+    "algorithms": [
+     {
+      "file": "CMSIS\\Flash\\STM32F4xx_512.FLM",
+      "start": "0x08000000",
+      "size": "0x00080000"
+     },
+     {
+      "file": "CMSIS\\Flash\\STM32F40xxx_41xxx_OPT.FLM",
+      "start": "0x1FFFC000",
+      "size": "0x00000004"
+     },
+     {
+      "file": "CMSIS\\Flash\\STM32F4xx_OTP.FLM",
+      "start": "0x1FFF7800",
+      "size": "0x00000210"
+     }
+    ]
+   }
+  }
+ },
+ "HC32F460": {
+  "pdsc": "C:\\Users\\99020\\AppData\\Local\\Arm\\Packs\\HDSC\\HC32F460\\1.0.8\\HDSC.HC32F460.pdsc",
+  "devices": {
+   "HC32F460JETA": {
+    "memory": [
+     {
+      "id": "IROM1",
+      "start": "0x00000000",
+      "size": "0x80000",
+      "access": ""
+     },
+     {
+      "id": "IROM2",
+      "start": "0x03000C00",
+      "size": "0x003FC",
+      "access": ""
+     },
+     {
+      "id": "IRAM1",
+      "start": "0x1FFF8000",
+      "size": "0x2F000",
+      "access": ""
+     },
+     {
+      "id": "IRAM2",
+      "start": "0x200F0000",
+      "size": "0x1000",
+      "access": ""
+     }
+    ],
+    "algorithms": [
+     {
+      "file": "FlashARM\\HC32F460_512K.FLM",
+      "start": "0x00000000",
+      "size": "0x80000"
+     },
+     {
+      "file": "FlashARM\\HC32F460_otp.FLM",
+      "start": "0x03000C00",
+      "size": "0x3FC"
+     },
+     {
+      "file": "FlashIAR\\FlashHC32F460.flash",
+      "start": "0x00000000",
+      "size": "0x80000"
+     },
+     {
+      "file": "FlashIAR\\FlashHC32F460_otp.flash",
+      "start": "0x03000C00",
+      "size": "0x3FC"
+     }
+    ]
+   },
+   "HC32F460JEUA": {
+    "memory": [
+     {
+      "id": "IROM1",
+      "start": "0x00000000",
+      "size": "0x80000",
+      "access": ""
+     },
+     {
+      "id": "IROM2",
+      "start": "0x03000C00",
+      "size": "0x003FC",
+      "access": ""
+     },
+     {
+      "id": "IRAM1",
+      "start": "0x1FFF8000",
+      "size": "0x2F000",
+      "access": ""
+     },
+     {
+      "id": "IRAM2",
+      "start": "0x200F0000",
+      "size": "0x1000",
+      "access": ""
+     }
+    ],
+    "algorithms": [
+     {
+      "file": "FlashARM\\HC32F460_512K.FLM",
+      "start": "0x00000000",
+      "size": "0x80000"
+     },
+     {
+      "file": "FlashARM\\HC32F460_otp.FLM",
+      "start": "0x03000C00",
+      "size": "0x3FC"
+     },
+     {
+      "file": "FlashIAR\\FlashHC32F460.flash",
+      "start": "0x00000000",
+      "size": "0x80000"
+     },
+     {
+      "file": "FlashIAR\\FlashHC32F460_otp.flash",
+      "start": "0x03000C00",
+      "size": "0x3FC"
+     }
+    ]
+   },
+   "HC32F460KEUA": {
+    "memory": [
+     {
+      "id": "IROM1",
+      "start": "0x00000000",
+      "size": "0x80000",
+      "access": ""
+     },
+     {
+      "id": "IROM2",
+      "start": "0x03000C00",
+      "size": "0x003FC",
+      "access": ""
+     },
+     {
+      "id": "IRAM1",
+      "start": "0x1FFF8000",
+      "size": "0x2F000",
+      "access": ""
+     },
+     {
+      "id": "IRAM2",
+      "start": "0x200F0000",
+      "size": "0x1000",
+      "access": ""
+     }
+    ],
+    "algorithms": [
+     {
+      "file": "FlashARM\\HC32F460_512K.FLM",
+      "start": "0x00000000",
+      "size": "0x80000"
+     },
+     {
+      "file": "FlashARM\\HC32F460_otp.FLM",
+      "start": "0x03000C00",
+      "size": "0x3FC"
+     },
+     {
+      "file": "FlashIAR\\FlashHC32F460.flash",
+      "start": "0x00000000",
+      "size": "0x80000"
+     },
+     {
+      "file": "FlashIAR\\FlashHC32F460_otp.flash",
+      "start": "0x03000C00",
+      "size": "0x3FC"
+     }
+    ]
+   },
+   "HC32F460KETA": {
+    "memory": [
+     {
+      "id": "IROM1",
+      "start": "0x00000000",
+      "size": "0x80000",
+      "access": ""
+     },
+     {
+      "id": "IROM2",
+      "start": "0x03000C00",
+      "size": "0x003FC",
+      "access": ""
+     },
+     {
+      "id": "IRAM1",
+      "start": "0x1FFF8000",
+      "size": "0x2F000",
+      "access": ""
+     },
+     {
+      "id": "IRAM2",
+      "start": "0x200F0000",
+      "size": "0x1000",
+      "access": ""
+     }
+    ],
+    "algorithms": [
+     {
+      "file": "FlashARM\\HC32F460_512K.FLM",
+      "start": "0x00000000",
+      "size": "0x80000"
+     },
+     {
+      "file": "FlashARM\\HC32F460_otp.FLM",
+      "start": "0x03000C00",
+      "size": "0x3FC"
+     },
+     {
+      "file": "FlashIAR\\FlashHC32F460.flash",
+      "start": "0x00000000",
+      "size": "0x80000"
+     },
+     {
+      "file": "FlashIAR\\FlashHC32F460_otp.flash",
+      "start": "0x03000C00",
+      "size": "0x3FC"
+     }
+    ]
+   },
+   "HC32F460PETB": {
+    "memory": [
+     {
+      "id": "IROM1",
+      "start": "0x00000000",
+      "size": "0x80000",
+      "access": ""
+     },
+     {
+      "id": "IROM2",
+      "start": "0x03000C00",
+      "size": "0x003FC",
+      "access": ""
+     },
+     {
+      "id": "IRAM1",
+      "start": "0x1FFF8000",
+      "size": "0x2F000",
+      "access": ""
+     },
+     {
+      "id": "IRAM2",
+      "start": "0x200F0000",
+      "size": "0x1000",
+      "access": ""
+     }
+    ],
+    "algorithms": [
+     {
+      "file": "FlashARM\\HC32F460_512K.FLM",
+      "start": "0x00000000",
+      "size": "0x80000"
+     },
+     {
+      "file": "FlashARM\\HC32F460_otp.FLM",
+      "start": "0x03000C00",
+      "size": "0x3FC"
+     },
+     {
+      "file": "FlashIAR\\FlashHC32F460.flash",
+      "start": "0x00000000",
+      "size": "0x80000"
+     },
+     {
+      "file": "FlashIAR\\FlashHC32F460_otp.flash",
+      "start": "0x03000C00",
+      "size": "0x3FC"
+     }
+    ]
+   },
+   "HC32F460PEHB": {
+    "memory": [
+     {
+      "id": "IROM1",
+      "start": "0x00000000",
+      "size": "0x80000",
+      "access": ""
+     },
+     {
+      "id": "IROM2",
+      "start": "0x03000C00",
+      "size": "0x003FC",
+      "access": ""
+     },
+     {
+      "id": "IRAM1",
+      "start": "0x1FFF8000",
+      "size": "0x2F000",
+      "access": ""
+     },
+     {
+      "id": "IRAM2",
+      "start": "0x200F0000",
+      "size": "0x1000",
+      "access": ""
+     }
+    ],
+    "algorithms": [
+     {
+      "file": "FlashARM\\HC32F460_512K.FLM",
+      "start": "0x00000000",
+      "size": "0x80000"
+     },
+     {
+      "file": "FlashARM\\HC32F460_otp.FLM",
+      "start": "0x03000C00",
+      "size": "0x3FC"
+     },
+     {
+      "file": "FlashIAR\\FlashHC32F460.flash",
+      "start": "0x00000000",
+      "size": "0x80000"
+     },
+     {
+      "file": "FlashIAR\\FlashHC32F460_otp.flash",
+      "start": "0x03000C00",
+      "size": "0x3FC"
+     }
+    ]
+   },
+   "HC32F460JCTA": {
+    "memory": [
+     {
+      "id": "IROM1",
+      "start": "0x00000000",
+      "size": "0x40000",
+      "access": ""
+     },
+     {
+      "id": "IROM2",
+      "start": "0x03000C00",
+      "size": "0x003FC",
+      "access": ""
+     },
+     {
+      "id": "IRAM1",
+      "start": "0x1FFF8000",
+      "size": "0x2F000",
+      "access": ""
+     },
+     {
+      "id": "IRAM2",
+      "start": "0x200F0000",
+      "size": "0x1000",
+      "access": ""
+     }
+    ],
+    "algorithms": [
+     {
+      "file": "FlashARM\\HC32F460_256K.FLM",
+      "start": "0x00000000",
+      "size": "0x40000"
+     },
+     {
+      "file": "FlashARM\\HC32F460_otp.FLM",
+      "start": "0x03000C00",
+      "size": "0x3FC"
+     },
+     {
+      "file": "FlashIAR\\FlashHC32F460.flash",
+      "start": "0x00000000",
+      "size": "0x40000"
+     },
+     {
+      "file": "FlashIAR\\FlashHC32F460_otp.flash",
+      "start": "0x03000C00",
+      "size": "0x3FC"
+     }
+    ]
+   },
+   "HC32F460KCTA": {
+    "memory": [
+     {
+      "id": "IROM1",
+      "start": "0x00000000",
+      "size": "0x40000",
+      "access": ""
+     },
+     {
+      "id": "IROM2",
+      "start": "0x03000C00",
+      "size": "0x003FC",
+      "access": ""
+     },
+     {
+      "id": "IRAM1",
+      "start": "0x1FFF8000",
+      "size": "0x2F000",
+      "access": ""
+     },
+     {
+      "id": "IRAM2",
+      "start": "0x200F0000",
+      "size": "0x1000",
+      "access": ""
+     }
+    ],
+    "algorithms": [
+     {
+      "file": "FlashARM\\HC32F460_256K.FLM",
+      "start": "0x00000000",
+      "size": "0x40000"
+     },
+     {
+      "file": "FlashARM\\HC32F460_otp.FLM",
+      "start": "0x03000C00",
+      "size": "0x3FC"
+     },
+     {
+      "file": "FlashIAR\\FlashHC32F460.flash",
+      "start": "0x00000000",
+      "size": "0x40000"
+     },
+     {
+      "file": "FlashIAR\\FlashHC32F460_otp.flash",
+      "start": "0x03000C00",
+      "size": "0x3FC"
+     }
+    ]
+   },
+   "HC32F460PCTB": {
+    "memory": [
+     {
+      "id": "IROM1",
+      "start": "0x00000000",
+      "size": "0x40000",
+      "access": ""
+     },
+     {
+      "id": "IROM2",
+      "start": "0x03000C00",
+      "size": "0x003FC",
+      "access": ""
+     },
+     {
+      "id": "IRAM1",
+      "start": "0x1FFF8000",
+      "size": "0x2F000",
+      "access": ""
+     },
+     {
+      "id": "IRAM2",
+      "start": "0x200F0000",
+      "size": "0x1000",
+      "access": ""
+     }
+    ],
+    "algorithms": [
+     {
+      "file": "FlashARM\\HC32F460_256K.FLM",
+      "start": "0x00000000",
+      "size": "0x40000"
+     },
+     {
+      "file": "FlashARM\\HC32F460_otp.FLM",
+      "start": "0x03000C00",
+      "size": "0x3FC"
+     },
+     {
+      "file": "FlashIAR\\FlashHC32F460.flash",
+      "start": "0x00000000",
+      "size": "0x40000"
+     },
+     {
+      "file": "FlashIAR\\FlashHC32F460_otp.flash",
+      "start": "0x03000C00",
+      "size": "0x3FC"
+     }
+    ]
+   }
+  }
+ },
+ "HC32F4A0": {
+  "pdsc": "C:\\Users\\99020\\AppData\\Local\\Arm\\Packs\\HDSC\\HC32F4A0\\1.0.8\\HDSC.HC32F4A0.pdsc",
+  "devices": {
+   "HC32F4A0TIHB": {
+    "memory": [
+     {
+      "id": "IROM1",
+      "start": "0x00000000",
+      "size": "0x200000",
+      "access": ""
+     },
+     {
+      "id": "IROM2",
+      "start": "0x03000000",
+      "size": "0x1800",
+      "access": ""
+     },
+     {
+      "id": "IRAM1",
+      "start": "0x1FFE0000",
+      "size": "0x80000",
+      "access": ""
+     }
+    ],
+    "algorithms": [
+     {
+      "file": "FlashARM\\HC32F4A0_2M.FLM",
+      "start": "0x00000000",
+      "size": "0x200000"
+     },
+     {
+      "file": "FlashARM\\HC32F4A0_otp.FLM",
+      "start": "0x03000000",
+      "size": "0x1800"
+     },
+     {
+      "file": "FlashIAR\\FlashHC32F4A0xI.flash",
+      "start": "0x00000000",
+      "size": "0x200000"
+     },
+     {
+      "file": "FlashIAR\\FlashHC32F4A0_otp.flash",
+      "start": "0x03000000",
+      "size": "0x1800"
+     }
+    ]
+   },
+   "HC32F4A0SITB": {
+    "memory": [
+     {
+      "id": "IROM1",
+      "start": "0x00000000",
+      "size": "0x200000",
+      "access": ""
+     },
+     {
+      "id": "IROM2",
+      "start": "0x03000000",
+      "size": "0x1800",
+      "access": ""
+     },
+     {
+      "id": "IRAM1",
+      "start": "0x1FFE0000",
+      "size": "0x80000",
+      "access": ""
+     }
+    ],
+    "algorithms": [
+     {
+      "file": "FlashARM\\HC32F4A0_2M.FLM",
+      "start": "0x00000000",
+      "size": "0x200000"
+     },
+     {
+      "file": "FlashARM\\HC32F4A0_otp.FLM",
+      "start": "0x03000000",
+      "size": "0x1800"
+     },
+     {
+      "file": "FlashIAR\\FlashHC32F4A0xI.flash",
+      "start": "0x00000000",
+      "size": "0x200000"
+     },
+     {
+      "file": "FlashIAR\\FlashHC32F4A0_otp.flash",
+      "start": "0x03000000",
+      "size": "0x1800"
+     }
+    ]
+   },
+   "HC32F4A0SGTB": {
+    "memory": [
+     {
+      "id": "IROM1",
+      "start": "0x00000000",
+      "size": "0x100000",
+      "access": ""
+     },
+     {
+      "id": "IROM2",
+      "start": "0x03000000",
+      "size": "0x1800",
+      "access": ""
+     },
+     {
+      "id": "IRAM1",
+      "start": "0x1FFE0000",
+      "size": "0x80000",
+      "access": ""
+     }
+    ],
+    "algorithms": [
+     {
+      "file": "FlashARM\\HC32F4A0_1M.FLM",
+      "start": "0x00000000",
+      "size": "0x100000"
+     },
+     {
+      "file": "FlashARM\\HC32F4A0_otp.FLM",
+      "start": "0x03000000",
+      "size": "0x1800"
+     },
+     {
+      "file": "FlashIAR\\FlashHC32F4A0xG.flash",
+      "start": "0x00000000",
+      "size": "0x100000"
+     },
+     {
+      "file": "FlashIAR\\FlashHC32F4A0_otp.flash",
+      "start": "0x03000000",
+      "size": "0x1800"
+     }
+    ]
+   },
+   "HC32F4A0SIHB": {
+    "memory": [
+     {
+      "id": "IROM1",
+      "start": "0x00000000",
+      "size": "0x200000",
+      "access": ""
+     },
+     {
+      "id": "IROM2",
+      "start": "0x03000000",
+      "size": "0x1800",
+      "access": ""
+     },
+     {
+      "id": "IRAM1",
+      "start": "0x1FFE0000",
+      "size": "0x80000",
+      "access": ""
+     }
+    ],
+    "algorithms": [
+     {
+      "file": "FlashARM\\HC32F4A0_2M.FLM",
+      "start": "0x00000000",
+      "size": "0x200000"
+     },
+     {
+      "file": "FlashARM\\HC32F4A0_otp.FLM",
+      "start": "0x03000000",
+      "size": "0x1800"
+     },
+     {
+      "file": "FlashIAR\\FlashHC32F4A0xI.flash",
+      "start": "0x00000000",
+      "size": "0x200000"
+     },
+     {
+      "file": "FlashIAR\\FlashHC32F4A0_otp.flash",
+      "start": "0x03000000",
+      "size": "0x1800"
+     }
+    ]
+   },
+   "HC32F4A0SGHB": {
+    "memory": [
+     {
+      "id": "IROM1",
+      "start": "0x00000000",
+      "size": "0x100000",
+      "access": ""
+     },
+     {
+      "id": "IROM2",
+      "start": "0x03000000",
+      "size": "0x1800",
+      "access": ""
+     },
+     {
+      "id": "IRAM1",
+      "start": "0x1FFE0000",
+      "size": "0x80000",
+      "access": ""
+     }
+    ],
+    "algorithms": [
+     {
+      "file": "FlashARM\\HC32F4A0_1M.FLM",
+      "start": "0x00000000",
+      "size": "0x100000"
+     },
+     {
+      "file": "FlashARM\\HC32F4A0_otp.FLM",
+      "start": "0x03000000",
+      "size": "0x1800"
+     },
+     {
+      "file": "FlashIAR\\FlashHC32F4A0xG.flash",
+      "start": "0x00000000",
+      "size": "0x100000"
+     },
+     {
+      "file": "FlashIAR\\FlashHC32F4A0_otp.flash",
+      "start": "0x03000000",
+      "size": "0x1800"
+     }
+    ]
+   },
+   "HC32F4A0RITB": {
+    "memory": [
+     {
+      "id": "IROM1",
+      "start": "0x00000000",
+      "size": "0x200000",
+      "access": ""
+     },
+     {
+      "id": "IROM2",
+      "start": "0x03000000",
+      "size": "0x1800",
+      "access": ""
+     },
+     {
+      "id": "IRAM1",
+      "start": "0x1FFE0000",
+      "size": "0x80000",
+      "access": ""
+     }
+    ],
+    "algorithms": [
+     {
+      "file": "FlashARM\\HC32F4A0_2M.FLM",
+      "start": "0x00000000",
+      "size": "0x200000"
+     },
+     {
+      "file": "FlashARM\\HC32F4A0_otp.FLM",
+      "start": "0x03000000",
+      "size": "0x1800"
+     },
+     {
+      "file": "FlashIAR\\FlashHC32F4A0xI.flash",
+      "start": "0x00000000",
+      "size": "0x200000"
+     },
+     {
+      "file": "FlashIAR\\FlashHC32F4A0_otp.flash",
+      "start": "0x03000000",
+      "size": "0x1800"
+     }
+    ]
+   },
+   "HC32F4A0RGTB": {
+    "memory": [
+     {
+      "id": "IROM1",
+      "start": "0x00000000",
+      "size": "0x100000",
+      "access": ""
+     },
+     {
+      "id": "IROM2",
+      "start": "0x03000000",
+      "size": "0x1800",
+      "access": ""
+     },
+     {
+      "id": "IRAM1",
+      "start": "0x1FFE0000",
+      "size": "0x80000",
+      "access": ""
+     }
+    ],
+    "algorithms": [
+     {
+      "file": "FlashARM\\HC32F4A0_1M.FLM",
+      "start": "0x00000000",
+      "size": "0x100000"
+     },
+     {
+      "file": "FlashARM\\HC32F4A0_otp.FLM",
+      "start": "0x03000000",
+      "size": "0x1800"
+     },
+     {
+      "file": "FlashIAR\\FlashHC32F4A0xG.flash",
+      "start": "0x00000000",
+      "size": "0x100000"
+     },
+     {
+      "file": "FlashIAR\\FlashHC32F4A0_otp.flash",
+      "start": "0x03000000",
+      "size": "0x1800"
+     }
+    ]
+   },
+   "HC32F4A0PITB": {
+    "memory": [
+     {
+      "id": "IROM1",
+      "start": "0x00000000",
+      "size": "0x200000",
+      "access": ""
+     },
+     {
+      "id": "IROM2",
+      "start": "0x03000000",
+      "size": "0x1800",
+      "access": ""
+     },
+     {
+      "id": "IRAM1",
+      "start": "0x1FFE0000",
+      "size": "0x80000",
+      "access": ""
+     }
+    ],
+    "algorithms": [
+     {
+      "file": "FlashARM\\HC32F4A0_2M.FLM",
+      "start": "0x00000000",
+      "size": "0x200000"
+     },
+     {
+      "file": "FlashARM\\HC32F4A0_otp.FLM",
+      "start": "0x03000000",
+      "size": "0x1800"
+     },
+     {
+      "file": "FlashIAR\\FlashHC32F4A0xI.flash",
+      "start": "0x00000000",
+      "size": "0x200000"
+     },
+     {
+      "file": "FlashIAR\\FlashHC32F4A0_otp.flash",
+      "start": "0x03000000",
+      "size": "0x1800"
+     }
+    ]
+   },
+   "HC32F4A0PGTB": {
+    "memory": [
+     {
+      "id": "IROM1",
+      "start": "0x00000000",
+      "size": "0x100000",
+      "access": ""
+     },
+     {
+      "id": "IROM2",
+      "start": "0x03000000",
+      "size": "0x1800",
+      "access": ""
+     },
+     {
+      "id": "IRAM1",
+      "start": "0x1FFE0000",
+      "size": "0x80000",
+      "access": ""
+     }
+    ],
+    "algorithms": [
+     {
+      "file": "FlashARM\\HC32F4A0_1M.FLM",
+      "start": "0x00000000",
+      "size": "0x100000"
+     },
+     {
+      "file": "FlashARM\\HC32F4A0_otp.FLM",
+      "start": "0x03000000",
+      "size": "0x1800"
+     },
+     {
+      "file": "FlashIAR\\FlashHC32F4A0xG.flash",
+      "start": "0x00000000",
+      "size": "0x100000"
+     },
+     {
+      "file": "FlashIAR\\FlashHC32F4A0_otp.flash",
+      "start": "0x03000000",
+      "size": "0x1800"
+     }
+    ]
+   },
+   "HC32F4A0PIHB": {
+    "memory": [
+     {
+      "id": "IROM1",
+      "start": "0x00000000",
+      "size": "0x200000",
+      "access": ""
+     },
+     {
+      "id": "IROM2",
+      "start": "0x03000000",
+      "size": "0x1800",
+      "access": ""
+     },
+     {
+      "id": "IRAM1",
+      "start": "0x1FFE0000",
+      "size": "0x80000",
+      "access": ""
+     }
+    ],
+    "algorithms": [
+     {
+      "file": "FlashARM\\HC32F4A0_2M.FLM",
+      "start": "0x00000000",
+      "size": "0x200000"
+     },
+     {
+      "file": "FlashARM\\HC32F4A0_otp.FLM",
+      "start": "0x03000000",
+      "size": "0x1800"
+     },
+     {
+      "file": "FlashIAR\\FlashHC32F4A0xI.flash",
+      "start": "0x00000000",
+      "size": "0x200000"
+     },
+     {
+      "file": "FlashIAR\\FlashHC32F4A0_otp.flash",
+      "start": "0x03000000",
+      "size": "0x1800"
+     }
+    ]
+   },
+   "HC32F4A0PGHB": {
+    "memory": [
+     {
+      "id": "IROM1",
+      "start": "0x00000000",
+      "size": "0x100000",
+      "access": ""
+     },
+     {
+      "id": "IROM2",
+      "start": "0x03000000",
+      "size": "0x1800",
+      "access": ""
+     },
+     {
+      "id": "IRAM1",
+      "start": "0x1FFE0000",
+      "size": "0x80000",
+      "access": ""
+     }
+    ],
+    "algorithms": [
+     {
+      "file": "FlashARM\\HC32F4A0_1M.FLM",
+      "start": "0x00000000",
+      "size": "0x100000"
+     },
+     {
+      "file": "FlashARM\\HC32F4A0_otp.FLM",
+      "start": "0x03000000",
+      "size": "0x1800"
+     },
+     {
+      "file": "FlashIAR\\FlashHC32F4A0xG.flash",
+      "start": "0x00000000",
+      "size": "0x100000"
+     },
+     {
+      "file": "FlashIAR\\FlashHC32F4A0_otp.flash",
+      "start": "0x03000000",
+      "size": "0x1800"
+     }
+    ]
+   }
+  }
+ },
+ "WCH32F2xx_DFP": {
+  "pdsc": "C:\\Users\\99020\\AppData\\Local\\Arm\\Packs\\Keil\\WCH32F2xx_DFP\\1.0.3\\Keil.WCH32F2xx_DFP.pdsc",
+  "devices": {
+   "CH32F203C6": {
+    "memory": [
+     {
+      "id": "IROM1",
+      "start": "0x08000000",
+      "size": "0x8000",
+      "access": ""
+     },
+     {
+      "id": "IRAM1",
+      "start": "0x20000000",
+      "size": "0x2800",
+      "access": ""
+     }
+    ],
+    "algorithms": []
+   },
+   "CH32F203K8": {
+    "memory": [
+     {
+      "id": "IROM1",
+      "start": "0x08000000",
+      "size": "0x10000",
+      "access": ""
+     },
+     {
+      "id": "IRAM1",
+      "start": "0x20000000",
+      "size": "0x5000",
+      "access": ""
+     }
+    ],
+    "algorithms": []
+   },
+   "CH32F203C8": {
+    "memory": [
+     {
+      "id": "IROM1",
+      "start": "0x08000000",
+      "size": "0x10000",
+      "access": ""
+     },
+     {
+      "id": "IRAM1",
+      "start": "0x20000000",
+      "size": "0x5000",
+      "access": ""
+     }
+    ],
+    "algorithms": []
+   },
+   "CH32F203RB": {
+    "memory": [
+     {
+      "id": "IROM1",
+      "start": "0x08000000",
+      "size": "0x20000",
+      "access": ""
+     },
+     {
+      "id": "IRAM1",
+      "start": "0x20000000",
+      "size": "0x8000",
+      "access": ""
+     }
+    ],
+    "algorithms": []
+   },
+   "CH32F203CB": {
+    "memory": [
+     {
+      "id": "IROM1",
+      "start": "0x08000000",
+      "size": "0x20000",
+      "access": ""
+     },
+     {
+      "id": "IRAM1",
+      "start": "0x20000000",
+      "size": "0x8000",
+      "access": ""
+     }
+    ],
+    "algorithms": []
+   },
+   "CH32F203RC": {
+    "memory": [
+     {
+      "id": "IROM1",
+      "start": "0x08000000",
+      "size": "0x40000",
+      "access": ""
+     },
+     {
+      "id": "IRAM1",
+      "start": "0x20000000",
+      "size": "0x10000",
+      "access": ""
+     }
+    ],
+    "algorithms": []
+   },
+   "CH32F203VC": {
+    "memory": [
+     {
+      "id": "IROM1",
+      "start": "0x08000000",
+      "size": "0x40000",
+      "access": ""
+     },
+     {
+      "id": "IRAM1",
+      "start": "0x20000000",
+      "size": "0x10000",
+      "access": ""
+     }
+    ],
+    "algorithms": []
+   },
+   "CH32F205RB": {
+    "memory": [
+     {
+      "id": "IROM1",
+      "start": "0x08000000",
+      "size": "0x20000",
+      "access": ""
+     },
+     {
+      "id": "IRAM1",
+      "start": "0x20000000",
+      "size": "0x8000",
+      "access": ""
+     }
+    ],
+    "algorithms": []
+   },
+   "CH32F207VC": {
+    "memory": [
+     {
+      "id": "IROM1",
+      "start": "0x08000000",
+      "size": "0x40000",
+      "access": ""
+     },
+     {
+      "id": "IRAM1",
+      "start": "0x20000000",
+      "size": "0x10000",
+      "access": ""
+     }
+    ],
+    "algorithms": []
+   },
+   "CH32F208RB": {
+    "memory": [
+     {
+      "id": "IROM1",
+      "start": "0x08000000",
+      "size": "0x28000",
+      "access": ""
+     },
+     {
+      "id": "IRAM1",
+      "start": "0x20000000",
+      "size": "0x8000",
+      "access": ""
+     }
+    ],
+    "algorithms": []
+   },
+   "CH32F208WB": {
+    "memory": [
+     {
+      "id": "IROM1",
+      "start": "0x08000000",
+      "size": "0x28000",
+      "access": ""
+     },
+     {
+      "id": "IRAM1",
+      "start": "0x20000000",
+      "size": "0x8000",
+      "access": ""
+     }
+    ],
+    "algorithms": []
+   }
+  }
+ }
+}

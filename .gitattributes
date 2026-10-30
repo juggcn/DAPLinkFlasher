@@ -1,0 +1,19 @@
+# 默认按文本处理，但下面明确列出二进制，避免 Windows 上 autocrlf 破坏烧录算法
+* text=auto
+
+# 烧录算法（FLM）与固件镜像：二进制，禁止行尾转换
+*.FLM binary
+*.flm binary
+*.FLX binary
+*.pack binary
+*.bin binary
+*.hex binary
+*.png binary
+*.ico binary
+
+# 器件描述与源码统一 LF
+*.pdsc text eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.spec text eol=lf
